@@ -1,6 +1,0 @@
-
----
-string status
-float32 temperature
-float32 humidity
-float32 smoke
