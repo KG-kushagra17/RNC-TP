@@ -1,0 +1,22 @@
+
+<library path="any_threshold_policy">
+  <class
+    name="room_monitor_cpp/AnyThresholdPolicy"
+    type="room_monitor_cpp::AnyThresholdPolicy"
+    base_class_type="room_monitor_cpp::AlertPolicy">
+    <description>
+      Raises an alert when any sensor threshold is exceeded.
+    </description>
+  </class>
+</library>
+
+<library path="two_threshold_policy">
+  <class
+    name="room_monitor_cpp/TwoThresholdPolicy"
+    type="room_monitor_cpp::TwoThresholdPolicy"
+    base_class_type="room_monitor_cpp::AlertPolicy">
+    <description>
+      Raises an alert when at least two sensor thresholds are exceeded.
+    </description>
+  </class>
+</library>
